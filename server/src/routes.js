@@ -4,7 +4,7 @@ module.exports = () => {
 
   /**** Routes ****/
   router.get('/hello', async (req, res) => {
-    res.json({msg: "Hello, ArtWalk!"});
+    res.json({msg: "Hello, world!"});
   });
 
   router.get('/hello/:name', async (req, res) => {
