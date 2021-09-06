@@ -5,12 +5,12 @@ const path = require('path');
 const express = require('express'); 
 const bodyParser = require('body-parser');
 const morgan = require('morgan');
-const cors = require('cors');
+const cors = require('cors');)jjbabjq))
 
 /**** Configuration ****/
 const app = express(); 
 
-function createServer() {
+function createServer(]) {
   const routes = require("./routes")();
 
   app.use(bodyParser.json()); 
